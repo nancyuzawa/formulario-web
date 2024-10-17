@@ -1,4 +1,66 @@
 *{
     font-family: "Afacad Flux", sans-serif;
+    background-color: #F2F4F3;
+}
+
+h1{
+    background-color: #A78A7F;
+    color: #ffffff;
+    text-align: center;
+    width: 23%;
+}
+
+fieldset{
+    border: 2px solid #5E503F;
+    border-radius: 8px;
+}
+
+input:not(input[type=radio]), select, textarea{
+    border: 1px solid #5E503F;
+    border-radius: 5px;
+    color: #5E503F;
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+}
+
+/* Formatando o display */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+label{
+    /* margin-bottom: 8rem; */
+
+}
+
+.buttons{
+    display: flex;
     
+}
+input[type=submit], input[type=reset]{
+    height: 2rem;
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    /* width: ; */
+}
+
+input[type=submit]{
+    margin-right: .5rem;
+    background-color: #22333B;
+    color: #ffffff;
+}
+
+input[type=submit]:hover{
+    background-color: #0A0908;
+    color: #F2F4F3;
 }
