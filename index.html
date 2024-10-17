@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- IMPORTANDO A FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Icone da página web -->
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+
+    <!-- Link da estilização -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">
+                Nome: 
+                <input id="nome" type="text">
+            </label>
+            <label for="sobrenome">
+                Sobrenome: 
+                <input id="sobrenome" type="text">
+            </label>
+            <label for="data-nascimento">
+                Data de Nascimento:
+                <input id="data-nascimento" type="date">
+            </label>
+            <label for="email">
+                Email:
+                <input id="email" type="email">
+            </label>
+            Sexo
+            <input type="radio" name="sexo" value="feminino">Feminino
+            <input type="radio" name="sexo" value="masculino">Masculino
+            <input type="radio" name="sexo" value="outros">Outros
+            <label for="pagina-pessoal">
+                Página Pessoal:
+                <input type="url" name="pagina-pessoal" id="pagina-pessoal">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Escolaridade</legend>
+            <label for="nivel-escolaridade">
+                Nível de Escolaridade:
+                <select name="nivel-escolaridade" id="nivel-escolaridade">
+                    <option value="fundamental">fundamental</option>
+                    <option value="medio">Ensino médio</option>
+                    <option value="superior">Superior</option>
+                    <option value="Pós-graduação">Pós-graduação</option>
+                </select>
+            </label>
+            <label for="observacoes">
+                Comentários
+                <textarea id="observacoes" name="observacoes" placeholder="Digite aqui suas observações" rows="3" cols="50"></textarea>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Experiência Profissional</legend>
+            <label for="profissao">
+                Profissão
+                <select id="profissao" name="profissao">
+                    <option value="estudante">Estudante</option>
+                    <option value="professor">Professor</option>
+                    <option value="engenheiro">Engenheiro</option>
+                    <option value="economista">Economista</option>
+                    <option value="medico">Medico</option>
+                </select>
+            </label>
+            <label for="experiencia">
+                Comentários
+                <textarea id="experiencia" name="experiencia" placeholder="Digite aqui sua experiência Profissional" rows="3" cols="50"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" id="btnEnvia" value="Enviar">
+        <input type="reset" id="btnLimpar" value="Limpar">
+    </form>
+</body>
+</html>
