@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Icone da página web -->
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
 
     <!-- Link da estilização -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Formulário</title>
 </head>
 <body>
@@ -40,9 +40,17 @@
                 <input id="email" type="email">
             </label>
             Sexo
-            <input type="radio" name="sexo" value="feminino">Feminino
-            <input type="radio" name="sexo" value="masculino">Masculino
-            <input type="radio" name="sexo" value="outros">Outros
+            <div class="div-sexo">
+                <div class="subdiv-sexo">
+                    <input type="radio" name="sexo" value="feminino">Feminino
+                </div>
+                <div class="subdiv-sexo">
+                    <input type="radio" name="sexo" value="masculino">Masculino
+                </div>
+                <div class="subdiv-sexo">
+                    <input type="radio" name="sexo" value="outros">Outros
+                </div>
+            </div>
             <label for="pagina-pessoal">
                 Página Pessoal:
                 <input type="url" name="pagina-pessoal" id="pagina-pessoal">

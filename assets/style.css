@@ -1,0 +1,88 @@
+*{
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #F2F4F3;
+    color: #5E503F;
+}
+
+h1{
+    background-color: #A78A7F;
+    color: #ffffff;
+    text-align: center;
+    width: 25rem;
+}
+
+fieldset{
+    border: 2px solid #0A0908;
+    border-radius: 8px;
+}
+
+legend{
+    color: #0A0908;
+}
+
+input:not(input[type=radio]), select, textarea{
+    border-radius: 5px;
+    width: 100%;
+}
+
+input:not(input[type=radio], input[type=submit], input[type=reset]), select, textarea{
+    border: 1px solid #5E503F;
+}
+
+
+textarea{
+    resize: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    
+}
+input[type=submit], input[type=reset]{
+    height: 2rem;
+    font-size: 1.1rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+input[type=submit]{
+    margin-right: .5rem;
+    background-color: #22333B;
+    border: 2px solid #22333B;
+    color: #F2F4F3;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    background-color: #0A0908;
+    border: none;
+    color: #F2F4F3;
+}
+
+input[type=reset]{
+    border: 2px solid #22333B;
+    color: #22333B;
+}
+
+.div-sexo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+input, select, textarea{
+    margin-bottom: .5rem;
+    padding-left: .2rem;
+
+}
