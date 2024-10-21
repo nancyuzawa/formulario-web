@@ -26,14 +26,17 @@
 	Sobre o projeto
 </h2>
 <p>
-	Projeto desenvolvido durante o 3º semestre da faculdade com desenvolvimento web, voltado para fins de aprendizado com o uso de tecnologias, incluindo HTML e CSS
+	Projeto desenvolvido durante o 3º semestre da faculdade com desenvolvimento web, voltado para fins de aprendizado com o uso de tecnologias, incluindo HTML e CSS. 
+</p>
+<p>
+	Este projeto consiste na criação de um formulário web utilizando componentes HTML, com objetivo de explorar as principais tags e atributos do HTML para construção de um formulário.
 </p>
 
 <h2 id="demo">
 	Demonstração da aplicação
 </h2>
 
-![image](https://github.com/user-attachments/assets/70b99dbb-f317-49e8-81f9-3d936be2266e)
+![image](https://github.com/user-attachments/assets/3ef96303-e6a8-4012-b7dd-6fe5ff544da2)
 
 <br>
 <p align="center">
